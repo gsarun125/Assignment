@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment 1</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="feeds">Feeds</string>
+    <string name="upload">Upload</string>
+    <string name="select_image">Select Image</string>
+    <string name="upload_image">Upload image</string>
+</resources>
