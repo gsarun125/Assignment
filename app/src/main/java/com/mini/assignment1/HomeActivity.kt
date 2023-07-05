@@ -1,10 +1,9 @@
 package com.mini.assignment1
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 
 class HomeActivity : AppCompatActivity() {
@@ -16,6 +15,9 @@ class HomeActivity : AppCompatActivity() {
         setOnboardingItems()
         findViewById<Button>(R.id.upload).setOnClickListener {
             navigateToUploadActtivity()
+        }
+        findViewById<Button>(R.id.feeds).setOnClickListener {
+            navigateToFeedActtivity()
         }
     }
 
@@ -45,6 +47,12 @@ class HomeActivity : AppCompatActivity() {
 
     private fun navigateToUploadActtivity(){
         startActivity(Intent(applicationContext,UploadActivity::class.java))
+        finish()
+    }
+
+
+    private fun navigateToFeedActtivity(){
+        startActivity(Intent(applicationContext,FeedActivity::class.java))
         finish()
     }
 }
