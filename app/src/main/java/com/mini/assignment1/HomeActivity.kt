@@ -25,9 +25,9 @@ class HomeActivity : AppCompatActivity() {
         onboardingItemsAdapter = OnboardingItemsAdapter(
             listOf(
                 OnboardingItem(
-                    description = "dddddddddddddddddddd",
-                    onboardingImage = R.drawable.a,
-                    title = "aaaaaaaaaaaaaaaaaaaaaaa"
+                    description = " ",
+                    onboardingImage = R.drawable.web,
+                    title = " "
 
                 )
             )

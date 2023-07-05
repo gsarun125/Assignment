@@ -12,6 +12,7 @@ class UploadActivity : AppCompatActivity() {
 
 
     private  lateinit var button: Button
+    private  lateinit var back: Button
     private lateinit var imageView: ImageView
 
     companion object{
@@ -27,17 +28,22 @@ class UploadActivity : AppCompatActivity() {
         button=findViewById(R.id.select_image)
         imageView=findViewById(R.id.img)
 
-        button.setOnClickListener{
+        back=findViewById(R.id.back1)
 
-            PickImageGallery()
-
-
+        back.setOnClickListener {
+            navigateToHomeActtivity()
 
         }
 
+        button.setOnClickListener{
+            PickImageGallery()
 
+        }
 
-
+    }
+    private fun navigateToHomeActtivity(){
+        startActivity(Intent(applicationContext,HomeActivity::class.java))
+        finish()
     }
     private fun PickImageGallery(){
         val intent=Intent(Intent.ACTION_PICK)

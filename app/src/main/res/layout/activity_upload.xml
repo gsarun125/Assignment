@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FAB88C"
     tools:context=".UploadActivity">
 
     <ImageView
@@ -24,7 +25,7 @@
         android:paddingStart="60dp"
         android:paddingEnd="40dp"
         android:text="@string/select_image"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,7 +41,7 @@
         android:paddingStart="60dp"
         android:paddingEnd="40dp"
         android:text="@string/upload_image"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:backgroundTint="@color/custom_color_secondary"
         app:cornerRadius="20dp"
@@ -49,6 +50,13 @@
         app:layout_constraintStart_toStartOf="parent"
         />
 
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

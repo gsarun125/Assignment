@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/custom_color_primary"
+    android:background="#FAB88C"
     tools:context=".HomeActivity">
 
     <androidx.viewpager2.widget.ViewPager2
@@ -23,11 +23,11 @@
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:layout_marginBottom="210dp"
-        android:backgroundTint="@color/custom_color_secondary"
+        android:backgroundTint="#D86E4C"
         android:paddingStart="60dp"
         android:paddingEnd="40dp"
         android:text="@string/feeds"
-        android:textSize="14sp"
+        android:textSize="21sp"
         android:textStyle="bold"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,16 +42,15 @@
         android:paddingStart="60dp"
         android:paddingEnd="40dp"
         android:text="@string/upload"
-        android:textSize="14sp"
+        android:textSize="21sp"
         android:textStyle="bold"
-        android:backgroundTint="@color/custom_color_secondary"
+        android:backgroundTint="#D86E4C"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+
         />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

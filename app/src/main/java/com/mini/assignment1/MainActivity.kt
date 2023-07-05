@@ -1,13 +1,13 @@
 package com.mini.assignment1
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
@@ -33,19 +33,19 @@ class MainActivity : AppCompatActivity() {
         onboardingItemsAdapter= OnboardingItemsAdapter(
             listOf(
                 OnboardingItem(
-                   onboardingImage= R.drawable.a,
-                    title = "aaaaaaaaaaaaaaaaaaaaaaa",
-                    description = "dddddddddddddddddddd"
+                   onboardingImage= R.drawable.down,
+                    title = "Upload",
+                    description = "Share your image on the social media...!"
                 ),
                 OnboardingItem(
-                    onboardingImage = R.drawable.b,
-                    title = "bbbbbbbbbbbbbbb",
-                    description = "bbbbbbbbbbbbbb"
+                    onboardingImage = R.drawable.view,
+                    title = "Beautiful things on earth..!",
+                    description = "Most beautiful things in life are not to be heard, nor read about, nor seen, but, if one will, are to be lived."
                 ),
                 OnboardingItem(
-                    onboardingImage = R.drawable.c,
-                    title = "ccccccccccccccccc",
-                    description = "ccccccccccccccccc"
+                    onboardingImage = R.drawable.con,
+                    title = "About Us..!",
+                    description = "However, the most amazing part is the history that displays the growth and journey. 'Enjoy the Beauty of the world'"
                 )
             )
         )
